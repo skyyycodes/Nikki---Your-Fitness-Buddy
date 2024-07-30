@@ -6,12 +6,12 @@ Nikki is a child superhero-themed fitness app designed to combat childhood obesi
 
 ## Table of Contents
 
-- [Introduction](##introduction)
-- [Features](##features)
-- [Tech Stack](##tech-stack)
-- [Setup](##setup)
-- [Usage](##usage)
-- [Contributing](##contributing)
+- [Introduction](##Introduction)
+- [Features](##Features)
+- [Tech Stack](##TechStack)
+- [Setup](##Setup)
+- [Usage](##Usage)
+- [Contributing](##Contributing)
 - [License](#license)
 
 ## Introduction
