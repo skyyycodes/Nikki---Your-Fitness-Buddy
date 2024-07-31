@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gemini_chat_app_tutorial/chatbot/home_page.dart';
 import 'package:provider/provider.dart';
 import 'package:gemini_chat_app_tutorial/Workout/components/exercise_tile.dart';
 import 'package:gemini_chat_app_tutorial/Workout/data/workout_data.dart';
@@ -26,8 +27,8 @@ class _WorkoutPageState extends State<WorkoutPage> {
 
   final List<Widget> _pages = [
     EpisodesPage(),
-    SpeechScreen(),
-    HomePage2(), // Home page
+    HomePage(),
+    SpeechScreen(), // Home page
     ChatWithDoctorPage(),
     EditProfileScreen(),
   ];

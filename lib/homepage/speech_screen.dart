@@ -5,6 +5,7 @@ import 'package:gemini_chat_app_tutorial/Workout/pages/home_page2.dart';
 import 'package:gemini_chat_app_tutorial/Episodes%20page/episode_page.dart';
 import 'package:gemini_chat_app_tutorial/Doctor%20Chat/doctor_chat.dart';
 import 'package:gemini_chat_app_tutorial/Profile%20page/Profile_page.dart';
+import 'package:gemini_chat_app_tutorial/chatbot/home_page.dart';
 
 // Define a color scheme that matches your SplashScreen
 const Color primaryColor = Colors.blueAccent;
@@ -25,8 +26,8 @@ class _SpeechScreenState extends State<SpeechScreen> {
 
   final List<Widget> _pages = [
     EpisodesPage(),
-    SpeechScreen(), // Current page
-    DietPage(),
+    HomePage(), // Current page
+    SpeechScreen(),
     ChatWithDoctorPage(),
     EditProfileScreen(),
   ];
@@ -169,11 +170,11 @@ class _SpeechScreenState extends State<SpeechScreen> {
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.chat),
-              label: 'Speech',
+              label: 'Nikki Chat',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'Diet',
+              label: 'Home',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.chat_bubble),

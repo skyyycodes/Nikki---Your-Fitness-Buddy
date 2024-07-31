@@ -12,6 +12,7 @@ import 'package:gemini_chat_app_tutorial/Doctor Chat/doctor_chat.dart';
 import 'package:gemini_chat_app_tutorial/chatbot/home_page.dart';
 import 'package:gemini_chat_app_tutorial/Profile page/Profile_page.dart';
 import 'package:gemini_chat_app_tutorial/Diet Page/diet_page.dart';
+import 'package:gemini_chat_app_tutorial/homepage/speech_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -70,7 +71,7 @@ class _HomePageState extends State<HomePage> {
         Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (context) => DietPage()), // Replace with your Diet page
+              builder: (context) => SpeechScreen()), // Replace with your Diet page
         );
         break;
       case 3:

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gemini_chat_app_tutorial/chatbot/home_page.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:gemini_chat_app_tutorial/Homepage/speech_screen.dart';
@@ -65,8 +66,8 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
   final List<Widget> _pages = [
     EpisodesPage(),
-    SpeechScreen(), // Make sure to import SpeechScreen
-    DietPage(),
+    HomePage(), // Make sure to import SpeechScreen
+    SpeechScreen(),
     ChatWithDoctorPage(),
     EditProfileScreen(), // Current page
   ];

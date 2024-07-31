@@ -83,7 +83,7 @@ class _EpisodesPageState extends State<EpisodesPage> {
       case 0:
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => DietPage()),
+          MaterialPageRoute(builder: (context) => EpisodesPage()),
         );
         break;
       case 1:

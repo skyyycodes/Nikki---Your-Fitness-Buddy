@@ -5,6 +5,7 @@ import 'package:gemini_chat_app_tutorial/Workout/pages/home_page2.dart';
 import 'package:gemini_chat_app_tutorial/Episodes%20page/episode_page.dart';
 import 'package:gemini_chat_app_tutorial/Profile%20page/Profile_page.dart';
 import 'package:gemini_chat_app_tutorial/Homepage/speech_screen.dart';
+import 'package:gemini_chat_app_tutorial/chatbot/home_page.dart';
 
 // Define color scheme
 final Color primaryColor = Colors.blueAccent;
@@ -24,8 +25,8 @@ class _ChatWithDoctorPageState extends State<ChatWithDoctorPage> {
 
   final List<Widget> _pages = [
     EpisodesPage(),
-    SpeechScreen(), // Make sure to import SpeechScreen
-    DietPage(),
+    HomePage(), // Make sure to import SpeechScreen
+    SpeechScreen(),
     ChatWithDoctorPage(), // Current page
     EditProfileScreen(),
   ];
