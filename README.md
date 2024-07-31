@@ -91,7 +91,7 @@ To set up Nikki follow these steps:
 6. **Firebase Account**: For backend services.
 7. **Node.js** and **npm**: For backend server setup.
 8. **Google Cloud Platform (GCP) Account**: For Dialogflow and other cloud services.
-9. **API Keys**: Necessary keys for external APIs used in the app (e.g., Nutritionix, Google Maps).
+9. **API Keys**: Necessary keys for external APIs used in the app (e.g.  dialogflow).
 
 ### Step-by-Step Setup
 
