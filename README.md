@@ -89,7 +89,7 @@ To set up Nikki follow these steps:
 4. **Visual Studio Code (VS Code)** or any preferred IDE: For code editing.
 5. **Git**: To clone the repository.
 6. **Firebase Account**: For backend services.
-7. **Node.js** and **npm**: For backend server setup if applicable.
+7. **Node.js** and **npm**: For backend server setup.
 8. **Google Cloud Platform (GCP) Account**: For Dialogflow and other cloud services.
 9. **API Keys**: Necessary keys for external APIs used in the app (e.g., Nutritionix, Google Maps).
 
