@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
     id: "1",
     firstName: "Nikki",
     profileImage:
-        "https://seeklogo.com/images/G/google-gemini-logo-A5787B2669-seeklogo.com.png",
+        "https://images.seeklogo.com/logo-png/54/1/nikki-logo-png_seeklogo-544482.png",
   );
 
   int _selectedIndex = 0;
