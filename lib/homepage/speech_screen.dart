@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gemini_chat_app_tutorial/Homepage/speech_service.dart';
 import 'package:gemini_chat_app_tutorial/Diet%20page/Diet_page.dart';
 import 'package:gemini_chat_app_tutorial/Workout/pages/home_page2.dart';
+import 'package:gemini_chat_app_tutorial/Workout2/pages/home/home.dart';
 import 'package:gemini_chat_app_tutorial/Episodes%20page/episode_page.dart';
 import 'package:gemini_chat_app_tutorial/Doctor%20Chat/doctor_chat.dart';
 import 'package:gemini_chat_app_tutorial/Profile%20page/Profile_page.dart';
@@ -74,7 +75,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-          builder: (context) => HomePage2()), // Navigate to HomePage2
+          builder: (context) => HomePage3()), // Navigate to HomePage2
     );
   }
 
